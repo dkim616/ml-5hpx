@@ -91,3 +91,4 @@ ENV/
 # Custom
 .DS_Store
 .vscode
+MNIST_data/
