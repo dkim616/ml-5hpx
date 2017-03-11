@@ -54,7 +54,7 @@ def main():
 	for i, image in enumerate(selected_two_images):
 		image = numpy.multiply(image, 255.0)
 		image = image.astype(numpy.uint8)
-		png.from_array(image.reshape(28, 28), 'L').save('image'+str(i)+'.png')
+		png.from_array(image.reshape(28, 28), 'L').save('softmax_image_'+str(i)+'.png')
 
 	print 'num images', len(mnist.test.images)
 	print 'num labels', len(mnist.test.labels)
