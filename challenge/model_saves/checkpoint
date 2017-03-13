@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/DK/workspace/interview-practice/ml-5hpx/challenge/model_saves/cnn_variables.checkpoint"
+all_model_checkpoint_paths: "/Users/DK/workspace/interview-practice/ml-5hpx/challenge/model_saves/cnn_variables.checkpoint"
